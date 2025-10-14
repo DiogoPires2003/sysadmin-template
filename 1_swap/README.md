@@ -6,6 +6,6 @@
   
        You can compile and execute the file with:
 
-       ```
+       ```bash
        $ make && ./main
        ```
