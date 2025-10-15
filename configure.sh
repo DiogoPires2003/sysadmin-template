@@ -3,8 +3,8 @@
 echo "Enabling swap..."
 . ./1_swap/swap.sh
 
-echo "Enabling tmpfs..."
-. ./2_tmpfs/tmpfs.sh
-
 echo "Configuring users..."
-. ./3_users/users.sh
+. ./2_users/users.sh
+
+echo "Enabling tmpfs..."
+. ./3_tmpfs/tmpfs.sh

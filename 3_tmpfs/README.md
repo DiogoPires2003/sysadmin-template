@@ -1,4 +1,4 @@
-# Prac-3.2: TMPFS
+# Prac-3.3: TMPFS
 
   1) Add the commands to create the `tmpfs` on the `tmpfs.sh` file.
 
