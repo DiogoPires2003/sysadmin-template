@@ -1,4 +1,5 @@
 #!/bin/bash
-
-echo "Your solution here, delete this line" && exit 128
-
+fallocate -l 8G /swapfile
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
