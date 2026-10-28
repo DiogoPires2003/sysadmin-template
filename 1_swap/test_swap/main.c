@@ -10,8 +10,9 @@ int main(int argc, char **argv) {
 
         void *p = malloc(MB);
 
-        memset(MB);
+        memset(p, 0, MB);
    }
     return 0;
 }
 
+     
